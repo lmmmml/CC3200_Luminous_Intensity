@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/pinmux.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cloud/cloud_pal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cloud/smartconfig.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cloud/device_status.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cloud/cloud_pal.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cloud/cloud_connect.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cloud/cloud.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cloud/device_status.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cloud/cloud_connect.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cloud/cloud.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cloud/smartconfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/crc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/i2s.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/aes.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/spi.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/crc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/i2s.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/des.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/flash.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/systick.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/sdhost.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/interrupt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/flash.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/cpu.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/shamd5.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/udma.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/pin.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/cpu.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/uart.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/pin.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/hwspinlock.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/sdhost.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/debug.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/camera.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/des.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/rom.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/adc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/hwspinlock.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/i2c.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/prcm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/shamd5.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/i2c.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/prcm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/camera.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/adc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/wdt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/rom_patch.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/systick.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/timer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/uart.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/gpio.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/udma.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/version.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/wdt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/gpio.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/utils.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/interrupt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/timer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/aes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/rom_map.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/driverlib/spi.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/framework/pm/cc_pm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/framework/pm/cc_pm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/framework/pm/cc_types.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/framework/timer/cc_timer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/framework/timer/cc_timer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/spi_drv.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/dma_hal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/util64.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/dma_hal.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/interrupt_hal.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/spi_hal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/hw_timer32.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/gpio_hal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/spi_hal.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/hw_timer32.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/gpio_hal.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/rtc_hal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/interrupt_hal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/rtc_hal.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/uart_hal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/hw_timer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/uart_hal.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/hal/util64.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/uart_drv.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/spi_drv.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/driver/uart_drv.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/soc/cc_io_park.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/soc/cc_io_park.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/soc/cc_pm_ops.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/middleware/soc/cc_pm_ops.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/My/LCD.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/My/Stat_Communicate.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/My/PutChar.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/My/Stat_Communicate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/My/LCD.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/adc_userinput.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/adc_userinput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/includes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/queue.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/timers.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/FreeRTOSConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/list.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/include/projdefs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/include/semphr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/include/StackMacros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/include/queue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/include/FreeRTOS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/include/event_groups.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/include/task.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/include/mpu_wrappers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/include/list.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/include/portable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/include/croutine.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/include/timers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/MemMang/heap_1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/MemMang/heap_4.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/MemMang/heap_3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/MemMang/heap_2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/event_groups.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/tasks.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/ARM_CM4/port.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/ARM_CM4/portmacro.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FreeRTOS/source/croutine.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/oslib/osi.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/oslib/osi_freertos.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/user.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/cc_pal_pm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/cc_pal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/netapp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/spawn.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/spawn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/driver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/protocol.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/fs.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/nonos.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/driver.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/flowcont.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/device.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/netcfg.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/objInclusion.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/nonos.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/socket.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/flowcont.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/source/wlan.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/include/fs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/include/wlan_rx_filters.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/include/netapp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/include/simplelink.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/include/socket.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/include/netcfg.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/include/device.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/include/wlan.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/include/trace.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simplelink/cc_pal.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pinmux.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/button_if.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/common.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/i2c_if.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/button_if.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/startup_gcc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/startup_ewarm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/utils_if.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/wdt_if.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/timer_if.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/uart_if.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/wdt_if.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/i2s_if.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/timer_if.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/uart_if.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/startup_ccs.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/network_if.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/i2s_if.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/network_if.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/gpio_if.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/udma_if.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/gpio_if.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/udma_if.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/utils_if.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common/i2c_if.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_apps_config.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_mcasp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_nvic.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_ints.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_des.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_gpio.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_hib1p2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_aes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_apps_rcm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_camera.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/asmdefs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_memmap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_mmchs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_flash_ctrl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_common_reg.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_stack_die_ctrl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_udma.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_hib3p3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_dthe.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_mcspi.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_uart.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_timer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_wdt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_i2c.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_shamd5.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_gprcm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_types.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_adc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inc/hw_ocp_shared.h" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://C:/MinGW/include" />
+          <root url="file://C:/MinGW/mingw32/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include-fixed" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://C:/MinGW/include" />
+          <root url="file://C:/MinGW/mingw32/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include-fixed" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
