@@ -19,6 +19,6 @@
 @REM 
 
 
-"E:\IAR Systems\Embedded Workbench 7.0\common\bin\cspybat" "E:\IAR Systems\Embedded Workbench 7.0\arm\bin\armproc.dll" "E:\IAR Systems\Embedded Workbench 7.0\arm\bin\armlmiftdi.dll"  %1 --plugin "E:\IAR Systems\Embedded Workbench 7.0\arm\bin\armbat.dll" --backend -B "--endian=little" "--cpu=Cortex-M4" "--fpu=None" "-p" "E:\IAR Systems\Embedded Workbench 7.0\arm\CONFIG\debugger\TexasInstruments\CC3200.ddf" "--semihosting=none" "--device=CC3200" "--drv_interface_speed=500" 
+"E:\Embedded Workbench 7.0\common\bin\cspybat" "E:\Embedded Workbench 7.0\arm\bin\armproc.dll" "E:\Embedded Workbench 7.0\arm\bin\armlmiftdi.dll"  %1 --plugin "E:\Embedded Workbench 7.0\arm\bin\armbat.dll" --backend -B "--endian=little" "--cpu=Cortex-M4" "--fpu=None" "-p" "E:\Embedded Workbench 7.0\arm\CONFIG\debugger\TexasInstruments\CC3200.ddf" "--semihosting=none" "--device=CC3200" "--drv_interface_speed=500" 
 
 

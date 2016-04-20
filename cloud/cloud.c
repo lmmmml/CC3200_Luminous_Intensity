@@ -986,6 +986,8 @@ void CloudsiteTask(void *pvParameters)
     //   
     I2C_IF_Open(I2C_MASTER_MODE_STD);
     Start_BH1750();
+    osi_Sleep(200);
+    Read_BH1750();
     cloudPal_GetHostIP();
     //Handle Async Events
     while(1)

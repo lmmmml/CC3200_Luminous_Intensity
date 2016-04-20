@@ -2,466 +2,476 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>461402266</fileChecksum>
+  <fileChecksum>2270634600</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\interrupt_hal.c</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\rtc_hal.c</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\spi_hal.c</file>
-      <file>$PROJ_DIR$\..\middleware\driver\uart_drv.c</file>
-      <file>$PROJ_DIR$\..\driverlib\hwspinlock.c</file>
-      <file>$PROJ_DIR$\..\common\button_if.c</file>
-      <file>$PROJ_DIR$\..\common\udma_if.c</file>
-      <file>$PROJ_DIR$\..\driverlib\i2c.c</file>
-      <file>$PROJ_DIR$\..\cloud\cloud_pal.c</file>
-      <file>$PROJ_DIR$\..\common\utils_if.c</file>
-      <file>$PROJ_DIR$\..\driverlib\aes.c</file>
-      <file>$PROJ_DIR$\..\driverlib\cpu.c</file>
-      <file>$PROJ_DIR$\..\driverlib\gpio.c</file>
-      <file>$PROJ_DIR$\..\driverlib\i2s.c</file>
-      <file>$PROJ_DIR$\..\cloud\smartconfig.c</file>
-      <file>$PROJ_DIR$\..\cloud\cloud.c</file>
-      <file>$PROJ_DIR$\..\driverlib\adc.c</file>
-      <file>$PROJ_DIR$\..\driverlib\crc.c</file>
-      <file>$PROJ_DIR$\..\cloud\cloud_connect.c</file>
-      <file>$PROJ_DIR$\..\common\startup_ewarm.c</file>
-      <file>$PROJ_DIR$\..\common\uart_if.c</file>
-      <file>$PROJ_DIR$\..\cloud\device_status.c</file>
-      <file>$PROJ_DIR$\..\common\gpio_if.c</file>
-      <file>$PROJ_DIR$\..\common\timer_if.c</file>
-      <file>$PROJ_DIR$\..\common\i2c_if.c</file>
-      <file>$PROJ_DIR$\..\common\wdt_if.c</file>
-      <file>$PROJ_DIR$\..\driverlib\camera.c</file>
-      <file>$PROJ_DIR$\..\driverlib\des.c</file>
-      <file>$PROJ_DIR$\..\driverlib\flash.c</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\croutine.c</file>
-      <file>$PROJ_DIR$\..\driverlib\wdt.c</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\ARM_CM4\port.c</file>
-      <file>$PROJ_DIR$\..\driverlib\prcm.c</file>
-      <file>$PROJ_DIR$\..\driverlib\shamd5.c</file>
-      <file>$PROJ_DIR$\..\middleware\soc\cc_io_park.c</file>
-      <file>$PROJ_DIR$\..\middleware\soc\cc_pm_ops.c</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\gpio_hal.c</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\list.c</file>
-      <file>$PROJ_DIR$\..\driverlib\spi.c</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\MemMang\heap_3.c</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\dma_hal.c</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\hw_timer32.c</file>
-      <file>$PROJ_DIR$\..\driverlib\uart.c</file>
-      <file>$PROJ_DIR$\..\driverlib\systick.c</file>
-      <file>$PROJ_DIR$\..\middleware\driver\spi_drv.c</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\uart_hal.c</file>
       <file>$PROJ_DIR$\..\driverlib\pin.c</file>
-      <file>$PROJ_DIR$\..\driverlib\timer.c</file>
-      <file>$PROJ_DIR$\..\driverlib\udma.c</file>
-      <file>$PROJ_DIR$\..\driverlib\sdhost.c</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\event_groups.c</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\queue.c</file>
+      <file>$PROJ_DIR$\..\driverlib\systick.c</file>
       <file>$PROJ_DIR$\..\FreeRTOS\source\tasks.c</file>
       <file>$PROJ_DIR$\..\FreeRTOS\source\timers.c</file>
-      <file>$PROJ_DIR$\..\driverlib\interrupt.c</file>
+      <file>$PROJ_DIR$\..\middleware\soc\cc_io_park.c</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\dma_hal.c</file>
+      <file>$PROJ_DIR$\..\driverlib\udma.c</file>
       <file>$PROJ_DIR$\..\driverlib\utils.c</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\include\netapp.h</file>
-      <file>$PROJ_DIR$\..\inc\hw_mmchs.h</file>
-      <file>$PROJ_DIR$\..\driverlib\prcm.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\dma_hal.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\tasks.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\wlan.o</file>
-      <file>$PROJ_DIR$\..\My\Stat_Communicate.h</file>
-      <file>$PROJ_DIR$\..\inc\hw_timer.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\spawn.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\flash.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\shamd5.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\i2s.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\interrupt.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
-      <file>$PROJ_DIR$\..\inc\hw_gprcm.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\smartconfig.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
-      <file>$PROJ_DIR$\..\inc\hw_apps_rcm.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\dma_hal.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.pbi</file>
-      <file>$PROJ_DIR$\..\driverlib\crc.h</file>
-      <file>$PROJ_DIR$\..\inc\hw_hib3p3.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\aes.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\i2s.pbi</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\source\objInclusion.h</file>
-      <file>$PROJ_DIR$\..\cloud\cloud.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\nonos.pbi</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\FreeRTOSConfig.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\timers.pbi</file>
-      <file>$PROJ_DIR$\..\simplelink\include\netcfg.h</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\rtc_hal.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
-      <file>$PROJ_DIR$\..\driverlib\sdhost.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-      <file>$PROJ_DIR$\..\user\adc_userinput.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\utils_if.o</file>
-      <file>$PROJ_DIR$\..\cloud\cloud_connect.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\wdt.o</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\include\timers.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-      <file>$PROJ_DIR$\..\simplelink\include\simplelink.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\i2c.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\cc_io_park.pbi</file>
-      <file>$PROJ_DIR$\..\inc\hw_udma.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\netcfg.pbi</file>
-      <file>$PROJ_DIR$\..\My\DHT11.h</file>
-      <file>$PROJ_DIR$\..\simplelink\include\wlan_rx_filters.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\driver.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\util64.pbi</file>
-      <file>$PROJ_DIR$\..\driverlib\timer.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\netapp.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\rtc_hal.o</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\uart_hal.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\nonos.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\util64.o</file>
-      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\aes.pbi</file>
-      <file>$PROJ_DIR$\..\driverlib\wdt.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\flowcont.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\des.o</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\ARM_CM4\portmacro.h</file>
-      <file>$PROJ_DIR$\..\simplelink\include\socket.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\timer_if.pbi</file>
-      <file>$PROJ_DIR$\..\My\LCD.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\heap_3.pbi</file>
-      <file>$PROJ_DIR$\..\common\button_if.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\Stat_Communicate.pbi</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\include\mpu_wrappers.h</file>
-      <file>$PROJ_DIR$\..\middleware\framework\pm\cc_pm.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\i2c_if.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-      <file>$PROJ_DIR$\..\common\i2c_if.h</file>
-      <file>$PROJ_DIR$\..\simplelink\include\netapp.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\uart_if.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\pin.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
-      <file>$PROJ_DIR$\..\inc\hw_mcspi.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\flash.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\interrupt_hal.h</file>
-      <file>$PROJ_DIR$\..\driverlib\pin.h</file>
-      <file>$PROJ_DIR$\..\simplelink\include\device.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\PutChar.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\crc.pbi</file>
-      <file>$PROJ_DIR$\..\inc\hw_wdt.h</file>
-      <file>$PROJ_DIR$\..\middleware\soc\cc_pm_ops.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\des.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\hwspinlock.o</file>
-      <file>$PROJ_DIR$\..\inc\hw_stack_die_ctrl.h</file>
-      <file>$PROJ_DIR$\..\driverlib\driverlib.a</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\include\list.h</file>
-      <file>$PROJ_DIR$\..\driverlib\utils.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\i2c.o</file>
-      <file>$PROJ_DIR$\..\inc\hw_gpio.h</file>
-      <file>$PROJ_DIR$\..\inc\hw_adc.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\spi_drv.o</file>
-      <file>$PROJ_DIR$\..\driverlib\des.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\gpio_hal.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\port.pbi</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\include\FreeRTOS.h</file>
-      <file>$PROJ_DIR$\..\inc\hw_flash_ctrl.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\wdt.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\..\inc\hw_uart.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\fs.pbi</file>
-      <file>$PROJ_DIR$\..\driverlib\rom.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\hw_timer32.pbi</file>
-      <file>$PROJ_DIR$\..\inc\hw_common_reg.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\camera.o</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\include\fs.h</file>
-      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\cc_pal.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\socket.pbi</file>
-      <file>$PROJ_DIR$\..\middleware\middleware.a</file>
-      <file>$PROJ_DIR$\..\inc\hw_shamd5.h</file>
-      <file>$PROJ_DIR$\..\driverlib\aes.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\fs.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\Stat_Communicate.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\cc_pal.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\wdt_if.o</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\MemMang\heap_3.c</file>
+      <file>$PROJ_DIR$\..\driverlib\shamd5.c</file>
+      <file>$PROJ_DIR$\..\driverlib\prcm.c</file>
+      <file>$PROJ_DIR$\..\driverlib\spi.c</file>
+      <file>$PROJ_DIR$\..\driverlib\timer.c</file>
+      <file>$PROJ_DIR$\..\driverlib\wdt.c</file>
+      <file>$PROJ_DIR$\..\driverlib\sdhost.c</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\croutine.c</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\list.c</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\ARM_CM4\port.c</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\event_groups.c</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\queue.c</file>
+      <file>$PROJ_DIR$\..\middleware\soc\cc_pm_ops.c</file>
+      <file>$PROJ_DIR$\..\driverlib\uart.c</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\interrupt_hal.c</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\rtc_hal.c</file>
       <file>$PROJ_DIR$\..\middleware\driver\hal\util64.c</file>
-      <file>$PROJ_DIR$\..\My\Stat_Communicate.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
-      <file>$PROJ_DIR$\..\My\LCD.c</file>
-      <file>$PROJ_DIR$\..\oslib\osi_freertos.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\port.o</file>
-      <file>$PROJ_DIR$\..\includes.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\utils.o</file>
-      <file>$PROJ_DIR$\..\simplelink\source\spawn.c</file>
-      <file>$PROJ_DIR$\..\My\PutChar.c</file>
-      <file>$PROJ_DIR$\..\simplelink\source\netcfg.c</file>
-      <file>$PROJ_DIR$\..\simplelink\cc_pal.c</file>
       <file>$PROJ_DIR$\..\My\DHT11.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\netapp.o</file>
-      <file>$PROJ_DIR$\..\cloud\cloud_pal.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\LCD.o</file>
-      <file>$PROJ_DIR$\..\simplelink\source\wlan.c</file>
-      <file>$PROJ_DIR$\..\simplelink\source\driver.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\event_groups.o</file>
-      <file>$PROJ_DIR$\..\simplelink\source\fs.c</file>
-      <file>$PROJ_DIR$\..\simplelink\source\device.c</file>
-      <file>$PROJ_DIR$\..\simplelink\source\netapp.c</file>
-      <file>$PROJ_DIR$\..\simplelink\source\flowcont.c</file>
-      <file>$PROJ_DIR$\..\simplelink\source\socket.c</file>
-      <file>$PROJ_DIR$\..\main.c</file>
-      <file>$PROJ_DIR$\..\driverlib\i2c.h</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\spi_hal.c</file>
       <file>$PROJ_DIR$\..\My\GY30.c</file>
-      <file>$PROJ_DIR$\..\simplelink\source\nonos.c</file>
-      <file>$PROJ_DIR$\..\pinmux.c</file>
+      <file>$PROJ_DIR$\..\My\Stat_Communicate.c</file>
+      <file>$PROJ_DIR$\..\My\PutChar.c</file>
+      <file>$PROJ_DIR$\..\simplelink\cc_pal.c</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\hw_timer32.c</file>
+      <file>$PROJ_DIR$\..\middleware\driver\spi_drv.c</file>
+      <file>$PROJ_DIR$\..\My\LCD.c</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\gpio_hal.c</file>
+      <file>$PROJ_DIR$\..\oslib\osi_freertos.c</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\uart_hal.c</file>
+      <file>$PROJ_DIR$\..\simplelink\include\simplelink.h</file>
+      <file>$PROJ_DIR$\..\simplelink\source\device.c</file>
+      <file>$PROJ_DIR$\..\middleware\driver\uart_drv.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\osi_freertos.o</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\include\event_groups.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\shamd5.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio_if.pbi</file>
+      <file>$PROJ_DIR$\..\driverlib\flash.h</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\util64.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\device_status.o</file>
+      <file>$PROJ_DIR$\..\driverlib\camera.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\pin.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\systick.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\device.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\PutChar.o</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\include\croutine.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_ints.h</file>
+      <file>$PROJ_DIR$\..\middleware\soc\cc_io_park.h</file>
+      <file>$PROJ_DIR$\..\driverlib\i2c.h</file>
       <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\wlan.pbi</file>
+      <file>$PROJ_DIR$\..\pinmux.h</file>
       <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\simplelink\source\protocol.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\event_groups.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\LCD.o</file>
+      <file>$PROJ_DIR$\..\cloud\cloud_pal.h</file>
       <file>$PROJ_DIR$\Debug\Obj\cc_pm_ops.o</file>
       <file>$PROJ_DIR$\Debug\Obj\crc.o</file>
-      <file>$PROJ_DIR$\..\inc\hw_ints.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\wlan.pbi</file>
       <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
-      <file>$PROJ_DIR$\..\pinmux.h</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\include\wlan_rx_filters.h</file>
-      <file>$PROJ_DIR$\..\simplelink\source\protocol.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\pin.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\device.pbi</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\include\simplelink.h</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\util64.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\shamd5.pbi</file>
-      <file>$PROJ_DIR$\..\driverlib\flash.h</file>
-      <file>$PROJ_DIR$\..\driverlib\camera.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\systick.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\PutChar.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\device_status.o</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\include\croutine.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\osi_freertos.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\gpio_if.pbi</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\include\event_groups.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\adc.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\prcm.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\sdhost.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\interrupt.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\driver.o</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\include\portable.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\udma_if.pbi</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\include\StackMacros.h</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\include\queue.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\pinmux.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\interrupt_hal.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\uart_drv.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\hwspinlock.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\flowcont.pbi</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\source\spawn.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\sdhost.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\timers.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\udma.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\spi_hal.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\MyCloudSystem.pbd</file>
-      <file>$PROJ_DIR$\..\simplelink\source\objInclusion.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\uart_hal.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sdhost.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\udma.o</file>
       <file>$PROJ_DIR$\Debug\Obj\cloud_connect.o</file>
-      <file>$PROJ_DIR$\..\cloud\smartconfig.h</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\user.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart_drv.pbi</file>
       <file>$PROJ_DIR$\..\inc\hw_camera.h</file>
       <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$PROJ_DIR$\..\cloud\smartconfig.h</file>
       <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timers.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_hal.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\flowcont.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart_hal.o</file>
+      <file>$PROJ_DIR$\..\simplelink\source\objInclusion.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\udma_if.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sdhost.o</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\include\portable.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\include\queue.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hwspinlock.pbi</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\include\StackMacros.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt_hal.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\pinmux.o</file>
       <file>$PROJ_DIR$\..\middleware\driver\hal\hw_timer.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\croutine.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\cc_io_park.o</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\include\socket.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\cpp.out</file>
-      <file>$PROJ_DIR$\Debug\Obj\gpio_if.o</file>
-      <file>$PROJ_DIR$\..\inc\hw_i2c.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
-      <file>$PROJ_DIR$\..\inc\hw_mcasp.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\event_groups.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\device.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\utils.pbi</file>
-      <file>$PROJ_DIR$\..\common\udma_if.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\heap_3.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\uart_drv.o</file>
-      <file>$PROJ_DIR$\..\inc\hw_aes.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\gpio_hal.pbi</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\gpio_hal.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\interrupt_hal.o</file>
-      <file>$PROJ_DIR$\..\driverlib\rom_map.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\tasks.pbi</file>
-      <file>$PROJ_DIR$\..\driverlib\udma.h</file>
-      <file>$PROJ_DIR$\..\simplelink\source\spawn.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\cloud.o</file>
-      <file>$PROJ_DIR$\..\driverlib\uart.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\smartconfig.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\cloud.pbi</file>
-      <file>$PROJ_DIR$\..\inc\hw_memmap.h</file>
-      <file>$PROJ_DIR$\..\middleware\driver\uart_drv.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\prcm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\driver.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\prcm.o</file>
+      <file>$PROJ_DIR$\..\simplelink\include\trace.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\GY30.pbi</file>
+      <file>$PROJ_DIR$\..\middleware\driver\spi_drv.h</file>
+      <file>$PROJ_DIR$\..\simplelink\user.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\GY30.o</file>
+      <file>$PROJ_DIR$\..\simplelink\cc_pal.h</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\hw_timer32.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\netcfg.o</file>
+      <file>$PROJ_DIR$\..\common\common.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hw_timer32.o</file>
+      <file>$PROJ_DIR$\..\driverlib\gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\wdt_if.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\udma.pbi</file>
+      <file>$PROJ_DIR$\..\My\GY30.h</file>
+      <file>$PROJ_DIR$\..\simplelink\source\driver.h</file>
+      <file>$PROJ_DIR$\..\simplelink\include\fs.h</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\include\projdefs.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cloud_connect.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\DHT11.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$PROJ_DIR$\..\common\button_if.c</file>
+      <file>$PROJ_DIR$\..\cloud\cloud_connect.c</file>
+      <file>$PROJ_DIR$\..\cloud\device_status.c</file>
+      <file>$PROJ_DIR$\..\cloud\cloud.c</file>
+      <file>$PROJ_DIR$\..\cloud\cloud_pal.c</file>
+      <file>$PROJ_DIR$\..\cloud\smartconfig.c</file>
+      <file>$PROJ_DIR$\..\driverlib\crc.c</file>
+      <file>$PROJ_DIR$\..\driverlib\des.c</file>
+      <file>$PROJ_DIR$\..\common\udma_if.c</file>
+      <file>$PROJ_DIR$\..\driverlib\aes.c</file>
+      <file>$PROJ_DIR$\..\common\wdt_if.c</file>
+      <file>$PROJ_DIR$\..\driverlib\flash.c</file>
+      <file>$PROJ_DIR$\..\common\i2c_if.c</file>
+      <file>$PROJ_DIR$\..\common\timer_if.c</file>
+      <file>$PROJ_DIR$\..\driverlib\gpio.c</file>
+      <file>$PROJ_DIR$\..\driverlib\i2c.c</file>
+      <file>$PROJ_DIR$\..\driverlib\camera.c</file>
+      <file>$PROJ_DIR$\..\driverlib\i2s.c</file>
+      <file>$PROJ_DIR$\..\driverlib\interrupt.c</file>
+      <file>$PROJ_DIR$\..\driverlib\adc.c</file>
+      <file>$PROJ_DIR$\..\driverlib\hwspinlock.c</file>
+      <file>$PROJ_DIR$\..\common\startup_ewarm.c</file>
+      <file>$PROJ_DIR$\..\common\gpio_if.c</file>
+      <file>$PROJ_DIR$\..\common\uart_if.c</file>
+      <file>$PROJ_DIR$\..\common\utils_if.c</file>
+      <file>$PROJ_DIR$\..\driverlib\cpu.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_hal.o</file>
       <file>$PROJ_DIR$\Debug\Obj\i2c_if.pbi</file>
+      <file>$PROJ_DIR$\..\common\wdt_if.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_ocp_shared.h</file>
+      <file>$PROJ_DIR$\..\driverlib\interrupt.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\LCD.pbi</file>
+      <file>$PROJ_DIR$\..\inc\hw_memmap.h</file>
       <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\cc3200.icf</file>
       <file>$PROJ_DIR$\Debug\Obj\list.o</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\spawn.o</file>
+      <file>$PROJ_DIR$\..\middleware\driver\uart_drv.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cloud.pbi</file>
       <file>$PROJ_DIR$\..\FreeRTOS\source\include\task.h</file>
       <file>$PROJ_DIR$\..\inc\hw_dthe.h</file>
       <file>$PROJ_DIR$\..\inc\hw_types.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\spi_hal.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spawn.o</file>
       <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-      <file>$PROJ_DIR$\..\common\wdt_if.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\LCD.pbi</file>
-      <file>$PROJ_DIR$\..\driverlib\interrupt.h</file>
-      <file>$PROJ_DIR$\..\inc\hw_ocp_shared.h</file>
       <file>$PROJ_DIR$\Debug\Obj\rtc_hal.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\pinmux.pbi</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\include\netcfg.h</file>
-      <file>$PROJ_DIR$\..\driverlib\cpu.h</file>
-      <file>$PROJ_DIR$\..\driverlib\shamd5.h</file>
       <file>$PROJ_DIR$\..\middleware\driver\hal\dma_hal.h</file>
       <file>$PROJ_DIR$\Debug\Obj\cloud_pal.o</file>
-      <file>$PROJ_DIR$\..\common\timer_if.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\include\wlan.h</file>
       <file>$PROJ_DIR$\..\inc\hw_hib1p2.h</file>
       <file>$PROJ_DIR$\..\cloud\device_status.h</file>
+      <file>$PROJ_DIR$\..\common\timer_if.h</file>
       <file>$PROJ_DIR$\..\oslib\free_rtos.a</file>
-      <file>$PROJ_DIR$\Debug\Obj\camera.pbi</file>
       <file>$PROJ_DIR$\..\driverlib\i2s.h</file>
       <file>$PROJ_DIR$\Debug\Obj\cloud_pal.pbi</file>
-      <file>$PROJ_DIR$\..\middleware\soc\cc_io_park.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\GY30.o</file>
-      <file>$PROJ_DIR$\..\simplelink\user.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\netcfg.o</file>
-      <file>$PROJ_DIR$\..\simplelink\cc_pal.h</file>
-      <file>$PROJ_DIR$\..\simplelink\include\trace.h</file>
-      <file>$PROJ_DIR$\..\driverlib\gpio.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\hw_timer32.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\prcm.o</file>
-      <file>$PROJ_DIR$\..\common\common.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\wdt_if.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\udma.pbi</file>
-      <file>$PROJ_DIR$\..\middleware\driver\spi_drv.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\GY30.pbi</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\hw_timer32.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\queue.pbi</file>
-      <file>$PROJ_DIR$\..\simplelink\include\fs.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
-      <file>$PROJ_DIR$\..\My\GY30.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\cloud_connect.pbi</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\include\projdefs.h</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\include\device.h</file>
-      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
-      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
-      <file>$PROJ_DIR$\..\simplelink\source\driver.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\DHT11.pbi</file>
-      <file>$PROJ_DIR$\..\middleware\driver\hal\spi_hal.h</file>
-      <file>$PROJ_DIR$\..\inc\hw_des.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\systick.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\timer_if.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\spi_drv.pbi</file>
-      <file>$PROJ_DIR$\..\..\Pro_AP\simplelink\include\trace.h</file>
-      <file>$PROJ_DIR$\..\driverlib\adc.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\cc_pal.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\cpu.pbi</file>
-      <file>$PROJ_DIR$\..\driverlib\debug.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\uart_hal.pbi</file>
-      <file>$PROJ_DIR$\..\common\gpio_if.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\button_if.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\utils_if.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\DHT11.o</file>
-      <file>$PROJ_DIR$\..\FreeRTOS\source\include\semphr.h</file>
-      <file>$PROJ_DIR$\..\driverlib\systick.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\driverlib\cpu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\camera.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\pinmux.pbi</file>
+      <file>$PROJ_DIR$\..\driverlib\shamd5.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\device.o</file>
+      <file>$PROJ_DIR$\..\inc\hw_mcasp.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\event_groups.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
+      <file>$PROJ_DIR$\..\inc\hw_i2c.h</file>
+      <file>$PROJ_DIR$\..\common\udma_if.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\croutine.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\heap_3.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\utils.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio_if.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc_io_park.o</file>
+      <file>$PROJ_DIR$\..\inc\hw_aes.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\cpp.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt_hal.o</file>
+      <file>$PROJ_DIR$\..\driverlib\rom_map.h</file>
+      <file>$PROJ_DIR$\..\simplelink\source\spawn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tasks.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart_drv.o</file>
+      <file>$PROJ_DIR$\..\driverlib\udma.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\smartconfig.pbi</file>
+      <file>$PROJ_DIR$\..\driverlib\uart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cloud.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio_hal.pbi</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\gpio_hal.h</file>
       <file>$PROJ_DIR$\Debug\Obj\button_if.o</file>
-      <file>$PROJ_DIR$\..\driverlib\spi.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\socket.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\device_status.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart_hal.pbi</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\include\semphr.h</file>
       <file>$PROJ_DIR$\..\simplelink\source\flowcont.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\DHT11.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\device_status.pbi</file>
+      <file>$PROJ_DIR$\..\driverlib\spi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\..\driverlib\systick.h</file>
       <file>$PROJ_DIR$\Debug\Obj\queue.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
       <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-      <file>$PROJ_DIR$\..\driverlib\hwspinlock.h</file>
-      <file>$PROJ_DIR$\..\oslib\osi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\socket.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\utils_if.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\button_if.pbi</file>
       <file>$PROJ_DIR$\..\simplelink\simplelink.a</file>
-      <file>$PROJ_DIR$\..\common\uart_if.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\osi_freertos.pbi</file>
-      <file>$PROJ_DIR$\..\inc\hw_apps_config.h</file>
       <file>$PROJ_DIR$\..\middleware\framework\pm\cc_types.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\MyCloudSystem.bin</file>
-      <file>$PROJ_DIR$\..\driverlib\rom_patch.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\osi_freertos.pbi</file>
       <file>$PROJ_DIR$\..\simplelink\include\wlan.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
+      <file>$PROJ_DIR$\..\driverlib\hwspinlock.h</file>
+      <file>$PROJ_DIR$\..\common\uart_if.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_apps_config.h</file>
       <file>$PROJ_DIR$\Debug\Obj\croutine.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\udma_if.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\cc_pm_ops.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\MyCloudSystem.bin</file>
+      <file>$PROJ_DIR$\..\oslib\osi.h</file>
+      <file>$PROJ_DIR$\..\driverlib\rom_patch.h</file>
       <file>$PROJ_DIR$\Debug\Obj\uart_if.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\udma_if.o</file>
       <file>$PROJ_DIR$\..\inc\hw_nvic.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc_pm_ops.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\cpu.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_des.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_drv.pbi</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\spi_hal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc_pal.o</file>
+      <file>$PROJ_DIR$\..\driverlib\adc.h</file>
+      <file>$PROJ_DIR$\..\driverlib\debug.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer_if.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cpu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\systick.pbi</file>
+      <file>$PROJ_DIR$\..\common\gpio_if.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\utils_if.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2s.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\wdt.o</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\include\timers.h</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\FreeRTOSConfig.h</file>
+      <file>$PROJ_DIR$\..\driverlib\sdhost.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\cloud\cloud_connect.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nonos.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timers.pbi</file>
+      <file>$PROJ_DIR$\..\simplelink\include\netcfg.h</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\rtc_hal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\user\adc_userinput.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+      <file>$PROJ_DIR$\..\inc\hw_hib3p3.h</file>
+      <file>$PROJ_DIR$\..\driverlib\crc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dma_hal.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes.o</file>
+      <file>$PROJ_DIR$\..\inc\hw_apps_rcm.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_gprcm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt.pbi</file>
+      <file>$PROJ_DIR$\..\cloud\cloud.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2s.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\smartconfig.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\shamd5.o</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\interrupt_hal.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_wdt.h</file>
+      <file>$PROJ_DIR$\..\simplelink\include\device.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\pin.o</file>
+      <file>$PROJ_DIR$\..\driverlib\pin.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c_if.o</file>
+      <file>$PROJ_DIR$\..\common\i2c_if.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_mcspi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\PutChar.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart_if.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.pbi</file>
+      <file>$PROJ_DIR$\..\simplelink\include\netapp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hwspinlock.o</file>
+      <file>$PROJ_DIR$\..\driverlib\utils.h</file>
+      <file>$PROJ_DIR$\..\driverlib\driverlib.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c.o</file>
+      <file>$PROJ_DIR$\..\driverlib\des.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\des.pbi</file>
+      <file>$PROJ_DIR$\..\inc\hw_stack_die_ctrl.h</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\include\list.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_adc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_drv.o</file>
+      <file>$PROJ_DIR$\..\middleware\soc\cc_pm_ops.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\..\driverlib\aes.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Stat_Communicate.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\port.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fs.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\wdt_if.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\netapp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\utils.o</file>
+      <file>$PROJ_DIR$\..\inc\hw_shamd5.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc_pal.pbi</file>
+      <file>$PROJ_DIR$\..\middleware\middleware.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\socket.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\camera.o</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\include\FreeRTOS.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio_hal.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\port.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\wdt.pbi</file>
+      <file>$PROJ_DIR$\..\inc\hw_uart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\..\driverlib\rom.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hw_timer32.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\fs.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_flash_ctrl.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_common_reg.h</file>
+      <file>$PROJ_DIR$\..\pinmux.c</file>
+      <file>$PROJ_DIR$\..\simplelink\source\fs.c</file>
+      <file>$PROJ_DIR$\..\simplelink\source\wlan.c</file>
+      <file>$PROJ_DIR$\..\simplelink\source\flowcont.c</file>
+      <file>$PROJ_DIR$\..\simplelink\source\netapp.c</file>
+      <file>$PROJ_DIR$\..\simplelink\source\socket.c</file>
+      <file>$PROJ_DIR$\..\simplelink\source\nonos.c</file>
+      <file>$PROJ_DIR$\..\simplelink\source\spawn.c</file>
+      <file>$PROJ_DIR$\..\includes.h</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\simplelink\source\driver.c</file>
+      <file>$PROJ_DIR$\..\simplelink\source\netcfg.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\dma_hal.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\wlan.o</file>
+      <file>$PROJ_DIR$\..\My\Stat_Communicate.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tasks.o</file>
+      <file>$PROJ_DIR$\..\inc\hw_timer.h</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\include\mpu_wrappers.h</file>
+      <file>$PROJ_DIR$\..\driverlib\prcm.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_mmchs.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spawn.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\util64.o</file>
+      <file>$PROJ_DIR$\..\driverlib\wdt.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\heap_3.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\flowcont.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\des.o</file>
+      <file>$PROJ_DIR$\..\middleware\framework\pm\cc_pm.h</file>
+      <file>$PROJ_DIR$\..\simplelink\include\socket.h</file>
+      <file>$PROJ_DIR$\..\My\LCD.h</file>
+      <file>$PROJ_DIR$\..\common\button_if.h</file>
+      <file>$PROJ_DIR$\..\FreeRTOS\source\ARM_CM4\portmacro.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Stat_Communicate.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer_if.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+      <file>$PROJ_DIR$\..\middleware\driver\hal\uart_hal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\driver.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\netapp.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\util64.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_udma.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc_io_park.pbi</file>
+      <file>$PROJ_DIR$\..\My\DHT11.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nonos.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\netcfg.pbi</file>
+      <file>$PROJ_DIR$\..\simplelink\include\wlan_rx_filters.h</file>
+      <file>$PROJ_DIR$\..\driverlib\timer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtc_hal.o</file>
     </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\pin.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 280</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162 151 281 154</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 154 151 281</file>
+        </tool>
+      </inputs>
+    </file>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 272</file>
+          <file> 192</file>
         </tool>
       </outputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\middleware\driver\hal\interrupt_hal.c</name>
+      <name>$PROJ_DIR$\..\driverlib\systick.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 250</file>
+          <file> 245</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 287</file>
+          <file> 52</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 137 234 382 167 296 310 242 305 216 288 58 387 380 129 96 229 301 320 389 267</file>
+          <file> 162 57 152 233 242 212</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 267 380 137 96 301 320 234 229 129 242 305 296 216 167 288 389 310 58 382 387</file>
+          <file> 57 233 162 242 152 212</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\middleware\driver\hal\rtc_hal.c</name>
+      <name>$PROJ_DIR$\..\FreeRTOS\source\tasks.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 312</file>
+          <file> 196</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 108</file>
+          <file> 349</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 380 58 267 167 268 242 96 137 129 396 225 387 305 288 86 389 89 212 307 234 229 301 320</file>
+          <file> 292 282 40 160 174 91 214 56 157 252 164 320 251 261 115 87 366 60 236 332 257 351 293 302</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 305 167 288 389 58 86 267 380 137 96 301 320 234 229 129 242 212 89 307 396 268 225 387</file>
+          <file> 60 214 292 261 157 174 40 56 282 164 236 320 332 257 115 252 87 366 293 351 160 302 251 91</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\middleware\driver\hal\spi_hal.c</name>
+      <name>$PROJ_DIR$\..\FreeRTOS\source\timers.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
@@ -469,394 +479,279 @@
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 306</file>
+          <file> 80</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 216 137 396 135 129 301 387 288 354 380 96 229 267 305 167 310 320 307 296 170 374 58 242 234 389</file>
+          <file> 214 292 261 89 40 115 87 282 351 320 252 160 56 157 174 332 257 293 302 60 251 366</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 267 380 137 96 301 320 234 229 129 242 307 396 305 296 135 170 167 288 389 374 58 216 310 387 354</file>
+          <file> 60 214 292 261 157 174 40 56 282 320 332 257 115 252 87 366 293 351 160 302 89 251</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\middleware\driver\uart_drv.c</name>
+      <name>$PROJ_DIR$\..\middleware\soc\cc_io_park.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 251</file>
+          <file> 377</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 283</file>
+          <file> 189</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 382 129 301 267 137 305 317 380 96 229 127 307 58 387 297 320 89 293 109 138 242 234 396 212 290 95 310</file>
+          <file> 214 261 56 58 282 157 292 327 174 220 162 194 88 40 79 230 281</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 267 380 137 96 301 320 234 229 129 242 307 396 89 305 58 293 382 387 127 317 212 290 109 95 297 138 310</file>
+          <file> 79 214 292 261 157 174 40 56 282 88 162 327 194 230 58 281 220</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\driverlib\hwspinlock.c</name>
+      <name>$PROJ_DIR$\..\middleware\driver\hal\dma_hal.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 252</file>
+          <file> 267</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 147</file>
+          <file> 346</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 137 96 216 380 305 95 296 170 234 229 301 320 89 381</file>
+          <file> 282 79 56 220 214 157 292 194 166 230 162 164 40 174 236 327 60 254 198 261 88</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 89 95 380 137 96 301 320 234 229 305 296 216 170 381</file>
+          <file> 327 194 230 220 166 162 60 214 292 261 157 174 40 56 282 79 88 254 164 236 198</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\common\button_if.c</name>
+      <name>$PROJ_DIR$\..\driverlib\udma.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 367</file>
+          <file> 111</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 373</file>
+          <file> 73</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 296 137 288 216 310 382 234 305 167 334 139 124 380 129 212 96 229 301 320 389</file>
+          <file> 242 57 198 376 154 152 162</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 212 380 137 96 301 320 234 229 129 305 216 167 288 389 334 310 139 296 382 124</file>
+          <file> 162 376 57 154 242 152 198</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\common\udma_if.c</name>
+      <name>$PROJ_DIR$\..\driverlib\utils.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 246</file>
+          <file> 187</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 392</file>
+          <file> 314</file>
         </tool>
       </outputs>
       <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 165 129 301 310 137 396 267 380 96 229 216 100 334 293 382 320 307 296 305 167 288 290 58 212 281 242 234 389</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 267 380 137 96 301 320 234 229 129 242 307 396 216 296 165 305 100 167 288 389 334 290 310 58 293 212 382 281</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\i2c.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 98</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 152</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 137 310 296 229 274 363 301 95 216 305 208 380 234 320 89 96</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 89 95 380 137 96 301 320 234 229 274 216 296 305 363 208 310</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\cloud\cloud_pal.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 327</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 318</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 224 129 320 321 267 359 380 197 96 229 301 137 271 314 307 382 396 212 95 234 80 172 56 349 220 264 254 174 242</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 197 95 380 137 96 301 320 234 229 97 330 307 129 396 332 382 260 333 344 119 131 390 140 85 103 291 267 242 212</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\common\utils_if.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 368</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 91</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 320 374 167 305 381 380 96 229 301 389 89 296 288 58 137 234 95</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 95 380 137 96 301 320 234 229 89 305 296 167 288 389 381 58 374</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\aes.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 114</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 78</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 229 137 178 216 284 395 301 95 304 296 305 380 234 320 337 89 363 96 310</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 89 95 380 137 96 301 320 234 229 284 304 216 296 395 305 178 337 363 310</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\cpu.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 362</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 397</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 315</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 315</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\gpio.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 379</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 122</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 296 310 153 363 305 216 170 334</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 305 153 216 296 170 363 334 310</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\i2s.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 79</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 67</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 305 386 296 326 216 276 310</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 305 216 296 276 386 310 326</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\cloud\smartconfig.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 294</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 71</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 301 172 129 137 380 224 349 96 229 384 80 56 220 307 382 396 320 337 359 271 321 314 264 254 174 234</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291 337 384</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\cloud\cloud.c</name>
-      <outputs>
         <tool>
           <name>BICOMP</name>
           <file> 295</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 292</file>
+          <file> 295</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\FreeRTOS\source\MemMang\heap_3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 358</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 186</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 307 296 97 81 360 293 390 380 320 288 62 85 95 189 337 129 96 229 301 137 267 216 208 365 92 119 382 58 197 242 234 89 305 153 219 384 102 396 333 167 212 151 170 154 70 310 130 139 334 263 90 121 323 346 389 260 344 131 140 103 330 291 332</file>
+          <file> 40 157 292 214 261 56 257 293 320 174 332 282 366 160 115 252 87 351 60 302</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 267 380 137 96 301 320 234 229 129 242 189 307 396 95 212 89 151 296 170 305 154 216 70 153 167 288 389 310 58 293 208 130 219 139 360 334 85 97 330 332 382 260 333 344 119 131 390 140 103 291 263 365 90 384 337 62 121 197 323 92 81 102 346</file>
+          <file> 60 214 292 261 157 174 40 56 282 320 332 257 115 252 87 366 293 351 160 302</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\driverlib\adc.c</name>
+      <name>$PROJ_DIR$\..\driverlib\shamd5.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 279</file>
+          <file> 44</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 239</file>
+          <file> 276</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 310 296 154 305 216 386 360</file>
+          <file> 56 292 154 161 162 157 257 57 233 152 40 174 254 315 242 178 214 261</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 305 296 216 154 386 310 360</file>
+          <file> 254 257 214 292 261 157 174 40 56 161 57 154 233 315 162 242 152 178</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\driverlib\crc.c</name>
+      <name>$PROJ_DIR$\..\driverlib\prcm.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 142</file>
+          <file> 95</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 215</file>
+          <file> 98</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 320 96 305 380 304 95 296 76 137 234 229 301 89 363</file>
+          <file> 162 152 269 265 57 47 154 270 168 352 175 295</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 89 95 380 137 96 301 320 234 229 304 296 305 76 363</file>
+          <file> 162 57 154 269 270 168 265 352 152 175 47 295</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\cloud\cloud_connect.c</name>
+      <name>$PROJ_DIR$\..\driverlib\spi.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 347</file>
+          <file> 321</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 262</file>
+          <file> 43</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 153 396 384 103 89 219 102 137 293 307 305 58 85 197 380 260 291 332 97 267 296 216 288 208 360 365 62 92 129 320 389 131 189 95 212 151 170 154 70 167 310 130 139 334 263 90 337 121 323 81 346 234 229 301 344 140 330 96 242 333 119 390 382</file>
+          <file> 210 162 286 226 57 154 152</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 92 189 307 380 137 96 301 320 234 229 129 396 95 267 242 212 89 151 296 170 305 154 216 70 153 167 288 389 310 58 293 208 130 219 139 360 334 85 97 330 332 382 260 333 344 119 131 390 140 103 291 263 365 90 384 337 62 121 197 323 81 102 346</file>
+          <file> 57 162 154 286 226 152 210</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\common\startup_ewarm.c</name>
+      <name>$PROJ_DIR$\..\driverlib\timer.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 75</file>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 264</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 350 57 242 154 162 152</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 154 350 162 242 152 383</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\wdt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 324</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 250</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242 154 278 357 57 162 152</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 154 162 278 242 152 357</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\sdhost.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162 253 353 226 154 57 152</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 154 353 57 226 152 253</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\FreeRTOS\source\croutine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 227</file>
         </tool>
         <tool>
           <name>ICCARM</name>
@@ -866,204 +761,66 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 216 305 310</file>
+          <file> 214 293 252 261 115 87 292 351 160 332 257 282 40 56 157 174 366 320 55 302</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 305 216 310</file>
+          <file> 320 332 214 292 261 157 174 40 56 282 257 115 252 87 366 293 351 160 302 55</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\common\uart_if.c</name>
+      <name>$PROJ_DIR$\..\FreeRTOS\source\list.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 394</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 132</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 380 382 137 301 267 167 96 229 162 305 139 384 320 129 389 212 307 296 58 293 288 234 242 396</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 212 380 137 96 301 320 234 229 129 267 242 307 396 305 296 58 139 293 167 288 389 382 384</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\cloud\device_status.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 376</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 232</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 321 224 359 254 174 137 234 380 271 314 264 323 80 172 56 349 220 307 382 129 396 96 229 301 320</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291 323</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\common\gpio_if.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 237</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 273</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 58 73 242 380 216 139 288 382 137 234 129 305 296 310 334 167 212 365 96 229 301 320 389 267</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 267 380 137 96 301 320 234 229 129 242 305 216 296 73 310 139 334 58 167 288 389 212 382 365</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\common\timer_if.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 120</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 357</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 310 305 167 380 216 58 382 137 296 363 106 288 212 319 129 234 389 96 229 301 320</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 305 296 216 363 310 106 167 288 389 58 212 380 137 96 301 320 234 229 129 382 319</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\common\i2c_if.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 298</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 128</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 301 212 380 137 296 167 96 229 89 274 139 58 320 129 389 95 305 216 208 288 130 234</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 89 95 380 137 96 301 320 234 229 212 129 305 296 216 274 208 139 167 288 389 58 130</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\common\wdt_if.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 338</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 182</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 310 58 382 380 320 137 216 167 129 96 229 301 305 296 115 288 308 242 234 267 389</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 267 380 137 96 301 320 234 229 129 242 305 216 296 58 115 167 288 389 310 308 382</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\camera.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 325</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 171</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 305 265 310 216 296 386 228</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 305 216 296 265 386 310 228</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\des.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 145</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
           <file> 117</file>
         </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 304 363 137 229 95 296 156 301 89 355 216 305 310 234 320 380 96</file>
+          <file> 282 257 214 293 87 320 292 40 261 252 60 302 56 157 174 332 115 366 351</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 89 95 380 137 96 301 320 234 229 355 304 216 296 305 363 156 310</file>
+          <file> 60 214 292 261 157 174 40 56 282 320 332 257 115 252 87 366 293 351 302</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\driverlib\flash.c</name>
+      <name>$PROJ_DIR$\..\FreeRTOS\source\ARM_CM4\port.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 136</file>
+          <file> 323</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 309</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 293 351 332 174 292 160 282 257 214 261 56 157 320 115 252 87 40 366 302</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293 214 320 332 292 261 157 174 40 56 282 257 115 252 87 366 351 160 302</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\FreeRTOS\source\event_groups.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181</file>
         </tool>
         <tool>
           <name>ICCARM</name>
@@ -1073,517 +830,11 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 148 70 310 296 77 227 161 216 322 170 363 151 305</file>
+          <file> 174 282 366 251 332 214 160 292 60 320 42 40 261 56 157 257 293 115 252 87 351 302</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 305 161 296 216 70 322 77 170 148 363 227 151 310</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\FreeRTOS\source\croutine.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 391</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 269</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 380 146 83 96 348 245 137 126 303 168 95 129 234 229 301 320 118 160 233 150</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 160 168 380 137 96 301 320 234 229 129 95 348 83 245 118 146 126 303 150 233</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\wdt.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 163</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 93</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 363 296 143 115 216 305 310</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 216 296 305 143 363 310 115</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\FreeRTOS\source\ARM_CM4\port.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 159</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 188</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 146 126 168 320 137 303 129 95 380 96 229 301 160 348 83 245 234 118 150</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 146 380 160 168 137 96 301 320 234 229 129 95 348 83 245 118 126 303 150</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\prcm.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 240</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 336</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 305 310 73 77 216 227 296 70 322 58 315 151</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 305 216 296 73 70 322 77 58 310 315 227 151</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\shamd5.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 226</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 66</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 229 137 296 304 305 301 95 216 395 310 234 320 89 177 363 316 380 96</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 89 95 380 137 96 301 320 234 229 304 216 296 395 177 305 363 310 316</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\middleware\soc\cc_io_park.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 99</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 270</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 380 96 229 328 129 301 137 167 320 387 305 288 242 234 267 389 139</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 267 380 137 96 301 320 234 229 129 242 305 167 288 389 328 139 387</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\middleware\soc\cc_pm_ops.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 393</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 214</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 286 387 137 212 380 296 86 305 170 389 242 96 129 288 315 216 127 89 290 167 58 334 310 395 144 317 267 268 307 234 229 301 320 396 225</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 305 296 167 288 389 58 334 315 290 286 127 267 380 137 96 301 320 234 229 129 242 89 387 310 216 395 170 144 86 212 307 396 268 225 317</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\middleware\driver\hal\gpio_hal.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 285</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 157</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 216 320 129 307 310 170 138 380 389 296 288 387 137 334 267 305 153 167 127 286 96 229 301 396 89 242 234</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 267 380 137 96 301 320 234 229 129 242 307 396 305 296 153 170 167 288 389 334 216 310 387 127 89 138 286</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\FreeRTOS\source\list.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 345</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 300</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 129 95 380 146 245 160 137 234 96 83 212 150 229 301 320 168 348 118 126</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 212 380 137 96 301 320 234 229 129 160 168 95 348 83 245 118 146 126 150</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\spi.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 158</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 235</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 374 305 135 386 216 296 310</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 216 305 296 135 386 310 374</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\FreeRTOS\source\MemMang\heap_3.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 123</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 282</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 234 301 137 380 96 229 95 146 160 320 168 129 118 303 348 83 245 126 212 150</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 212 380 137 96 301 320 234 229 129 160 168 95 348 83 245 118 146 126 303 150</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\middleware\driver\hal\dma_hal.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 74</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 59</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 129 267 229 387 380 301 137 288 317 389 305 307 234 320 396 167 212 89 290 96 242</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 167 288 389 387 317 305 212 380 137 96 301 320 234 229 129 267 242 89 307 396 290</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\middleware\driver\hal\hw_timer32.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 169</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 335</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 380 96 229 167 106 301 137 89 234 288 305 320 389 267 268 242 396 307 387 95 342 216 212 129 225</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 89 95 380 137 96 301 320 234 229 167 288 389 342 267 129 242 212 307 396 268 225 387 216 305 106</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\uart.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 69</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 351</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 363 305 310 216 296 165 293</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 216 296 305 165 363 310 293</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\systick.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 356</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 230</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 305 216 310 395 363 371</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 216 395 305 363 310 371</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\middleware\driver\spi_drv.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 358</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 155</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 382 137 290 234 138 354 380 320 212 305 267 58 127 129 96 229 301 89 307 317 387 340 242 396 310 374</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 267 380 137 96 301 320 234 229 129 242 307 396 305 317 212 89 290 387 138 310 58 382 127 354 374 340</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\middleware\driver\hal\uart_hal.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 364</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 261</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 109 288 396 380 320 387 307 165 290 129 96 229 301 137 305 296 100 167 293 58 234 389 95</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 307 380 137 96 301 320 234 229 129 396 305 296 100 165 167 288 389 293 58 290 387 109 95</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\pin.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 222</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 133</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 305 311 139 296</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 305 296 311 139</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\timer.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 366</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 72</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 106 63 216 363 296 305 310</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 216 296 63 305 363 310 106</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\udma.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 339</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 257</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 363 216 290 100 296 310 305</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 305 100 216 296 363 310 290</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\sdhost.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 255</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 241</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 305 88 57 386 296 216 310</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 305 296 57 216 386 310 88</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\FreeRTOS\source\event_groups.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 277</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 201</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 320 129 118 94 168 380 303 137 212 160 238 234 96 229 301 95 146 348 83 245 126 150</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 212 380 137 96 301 320 234 229 129 160 168 95 348 83 245 118 146 126 303 150 94 238</file>
+          <file> 60 214 292 261 157 174 40 56 282 320 332 257 115 252 87 366 293 351 160 302 251 42</file>
         </tool>
       </inputs>
     </file>
@@ -1592,490 +843,7 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 343</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 378</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 320 303 129 234 137 380 229 301 83 307 160 248 96 348 245 118 212 396 168 95 126 146 150</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 212 380 137 96 301 320 234 229 129 307 396 160 168 95 348 83 245 118 146 126 303 150 248</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\FreeRTOS\source\tasks.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 289</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 60</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 137 129 234 303 320 247 380 229 301 83 307 160 94 96 348 245 118 212 396 168 95 126 146 150</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 212 380 137 96 301 320 234 229 129 307 396 160 168 95 348 83 245 118 146 126 303 150 94 247</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\FreeRTOS\source\timers.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 84</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 256</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 380 137 96 248 234 348 245 129 126 160 83 303 229 301 320 168 95 146 150 212 94 118</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 212 380 137 96 301 320 234 229 129 160 168 95 348 83 245 118 146 126 303 150 248 94</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\interrupt.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 68</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 243</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 363 305 395 315 310 216</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 216 395 305 315 363 310</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\driverlib\utils.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 280</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 190</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 151</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 151</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\middleware\driver\hal\util64.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 105</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 111</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 387 225</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 225 387</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\My\Stat_Communicate.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 125</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 180</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 334 170 310 121 382 293 212 70 130 90 81 137 119 95 189 151 154 167 139 263 337 323 346 380 96 242 85 307 97 296 58 62 267 89 305 216 153 288 208 219 360 365 384 197 92 102 129 396 234 333 390 229 301 320 389 260 344 131 140 103 330 291 332</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 62 189 307 380 137 96 301 320 234 229 129 396 95 267 242 212 89 151 296 170 305 154 216 70 153 167 288 389 310 58 293 208 130 219 139 360 334 85 97 330 332 382 260 333 344 119 131 390 140 103 291 263 365 90 384 337 121 197 323 92 81 102 346</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\My\LCD.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 309</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 198</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 216 129 365 301 267 208 92 330 293 296 288 360 62 137 97 140 95 121 307 89 305 153 58 219 85 384 197 102 380 396 234 229 344 189 212 151 170 154 70 167 310 130 139 334 263 90 337 323 81 346 320 389 260 131 103 291 332 96 242 333 119 390 382</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 189 307 380 137 96 301 320 234 229 129 396 95 267 242 212 89 151 296 170 305 154 216 70 153 167 288 389 310 58 293 208 130 219 139 360 334 85 97 330 332 382 260 333 344 119 131 390 140 103 291 263 365 90 384 337 62 121 197 323 92 81 102 346</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\oslib\osi_freertos.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 385</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 236</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 310 129 307 320 380 150 248 267 303 382 137 396 348 245 212 160 370 118 167 288 305 242 96 229 301 83 126 389 234 168 95 146</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 267 380 137 96 301 320 234 229 129 242 212 307 396 160 168 95 348 83 245 118 146 126 303 150 370 248 382 167 288 389 305 310</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\simplelink\source\spawn.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 64</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 302</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 96 349 380 224 229 172 129 301 137 80 56 220 307 382 396 320 359 271 321 314 264 254 174 234</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\My\PutChar.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 141</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 231</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 296 137 360 129 288 62 380 96 234 390 307 267 216 208 365 92 333 97 293 121 89 305 153 58 219 85 384 197 102 396 119 382 95 189 372 212 151 170 154 70 167 310 130 139 334 263 90 337 323 81 346 229 301 320 242 389 260 344 131 140 103 330 291 332 134 218 275 113 87 266</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 189 307 380 137 96 301 320 234 229 129 396 95 267 242 212 89 151 296 170 305 154 216 70 153 167 288 389 310 58 293 208 130 219 139 360 334 85 97 330 332 382 260 333 344 119 131 390 140 103 291 263 365 90 384 337 62 121 197 323 92 81 102 346 372 134 275 87 113 218 266</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\simplelink\source\netcfg.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 101</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 331</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 224 172 349 264 137 352 80 56 220 254 174 234 380 221 359 271 321 314 307 382 129 396 96 229 301 320</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291 221 352</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\simplelink\cc_pal.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 181</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 361</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 216 271 382 380 320 224 135 374 290 314 307 396 389 305 296 170 288 359 321 129 96 229 301 137 332 100 139 167 58 310 151 80 172 56 349 220 264 254 174 234</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291 216 100 305 139 296 135 170 167 288 389 374 58 310 290 151</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\My\DHT11.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 353</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 369</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 334 139 95 301 129 85 170 151 346 310 167 337 137 307 97 288 216 154 293 263 323 234 229 380 119 382 189 296 305 219 58 365 389 212 70 130 90 121 81 320 333 390 102 267 89 153 208 360 384 62 197 92 396 96 242 260 344 131 140 103 330 291 332</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 102 167 288 389 296 170 305 216 293 310 219 151 58 334 365 189 307 380 137 96 301 320 234 229 129 396 95 267 242 212 89 154 70 153 208 130 139 360 85 97 330 332 382 260 333 344 119 131 390 140 103 291 263 90 384 337 62 121 197 323 92 81 346</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\simplelink\source\wlan.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 217</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 61</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 129 137 380 321 301 224 352 359 96 229 271 314 307 382 396 320 221 80 172 56 349 220 264 254 174 234</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291 221 352</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\simplelink\source\driver.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 104</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 244</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 172 224 349 264 137 377 80 56 220 254 174 234 380 221 352 359 271 321 314 307 382 129 396 96 229 301 320</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291 221 352 377</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\simplelink\source\fs.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 166</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 179</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 301 321 224 129 137 380 359 96 229 352 271 314 307 382 396 320 221 80 172 56 349 220 264 254 174 234</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291 221 352</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\simplelink\source\device.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 223</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 278</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 220 80 254 174 224 56 137 234 380 377 172 349 264 221 352 359 271 321 314 307 382 129 396 96 229 301 320</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291 221 377 352</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\simplelink\source\netapp.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 107</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 196</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 380 137 129 352 321 301 224 359 96 229 271 314 307 382 396 320 221 80 172 56 349 220 264 254 174 234</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291 221 352</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\simplelink\source\flowcont.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 253</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
           <file> 116</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 172 224 349 264 137 352 80 56 220 254 174 234 380 221 377 359 271 321 314 307 382 129 396 96 229 301 320</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291 221 352 377</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\simplelink\source\socket.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 175</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 375</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 229 224 359 380 96 321 129 301 137 352 271 314 307 382 396 320 221 80 172 56 349 220 264 254 174 234</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291 221 352</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\main.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 164</file>
         </tool>
         <tool>
           <name>ICCARM</name>
@@ -2085,11 +853,172 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 151 139 346 242 216 337 167 330 293 307 310 382 95 154 263 323 137 380 96 97 140 58 219 212 170 70 130 334 90 121 81 344 296 189 305 288 384 267 89 153 208 360 85 365 62 197 92 102 129 396 389 260 131 103 291 332 234 229 301 320 333 119 390</file>
+          <file> 174 160 282 40 292 214 56 157 252 164 320 89 261 115 87 366 60 236 332 257 351 293 302</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 189 307 380 137 96 301 320 234 229 129 396 95 267 242 212 89 151 296 170 305 154 216 70 153 167 288 389 310 58 293 208 130 219 139 360 334 85 97 330 332 382 260 333 344 119 131 390 140 103 291 263 365 90 384 337 62 121 197 323 92 81 102 346</file>
+          <file> 60 214 292 261 157 174 40 56 282 164 236 320 332 257 115 252 87 366 293 351 160 302 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\middleware\soc\cc_pm_ops.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 234</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203 220 292 60 214 154 260 162 333 230 88 261 282 194 175 57 362 254 198 327 352 109 152 233 305 166 79 94 164 40 56 157 174 236 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 154 327 194 230 352 109 175 198 203 362 79 214 292 261 157 174 40 56 282 88 254 220 152 57 233 333 305 260 60 164 236 94 48 166</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242 162 152 57 154 325 200</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 154 162 325 242 152 200</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\middleware\driver\hal\interrupt_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 193</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292 40 229 327 154 152 88 162 57 194 352 220 214 282 261 56 157 174 230 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 214 292 261 157 174 40 56 282 88 162 154 57 327 194 230 152 352 229 220</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\middleware\driver\hal\rtc_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 384</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214 352 79 327 94 88 261 292 282 236 48 220 162 194 260 230 254 60 164 40 56 157 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 327 194 230 352 260 79 214 292 261 157 174 40 56 282 88 60 254 164 236 94 48 220</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\middleware\driver\hal\util64.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 374</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 356</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 220 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 220</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\My\DHT11.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 208</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 281 257 157 282 259 333 295 112 152 327 107 292 164 37 194 57 303 200 78 169 40 56 214 363 229 342 154 162 62 352 246 230 60 270 284 262 364 272 174 99 222 378 79 254 299 59 241 225 348 67 255 236 261 88 84 114 291 279 382 102 195 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 378 327 194 230 154 333 162 57 200 152 62 295 352 109 246 342 164 214 292 261 157 174 40 56 282 236 257 79 88 60 254 303 270 299 59 284 281 241 259 37 102 104 229 84 99 114 363 291 222 279 382 195 78 262 225 107 348 364 67 169 255 272 112</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\middleware\driver\hal\spi_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 292 236 286 282 157 220 194 239 214 261 56 79 162 327 152 174 164 154 333 210 352 88 40 230</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 214 292 261 157 174 40 56 282 88 164 236 162 154 286 333 327 194 230 210 352 57 152 220 239</file>
         </tool>
       </inputs>
     </file>
@@ -2098,67 +1027,872 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 341</file>
+          <file> 100</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 329</file>
+          <file> 103</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 288 62 296 360 382 95 170 267 216 208 365 92 129 137 119 334 102 307 89 305 153 58 219 85 384 197 380 396 96 242 97 310 189 212 151 154 70 167 293 130 139 263 90 337 121 323 81 346 234 333 390 229 301 320 389 260 344 131 140 103 330 291 332</file>
+          <file> 194 348 154 241 229 257 333 79 57 59 246 255 282 292 363 109 378 164 254 162 299 352 62 259 225 67 214 236 261 88 37 152 342 60 295 303 270 327 200 284 281 78 262 107 364 169 272 112 40 99 222 56 157 174 230 84 114 291 279 382 102 195 104</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 346 189 307 380 137 96 301 320 234 229 129 396 95 267 242 212 89 151 296 170 305 154 216 70 153 167 288 389 310 58 293 208 130 219 139 360 334 85 97 330 332 382 260 333 344 119 131 390 140 103 291 263 365 90 384 337 62 121 197 323 92 81 102</file>
+          <file> 112 342 164 214 292 261 157 174 40 56 282 236 257 79 88 60 254 295 154 333 162 303 57 270 299 327 194 230 152 352 200 59 284 62 281 241 109 259 37 102 104 229 84 99 114 363 291 222 279 382 195 78 246 262 225 107 348 364 67 169 255 272 378</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\simplelink\source\nonos.c</name>
+      <name>$PROJ_DIR$\..\My\Stat_Communicate.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 82</file>
+          <file> 367</file>
         </tool>
         <tool>
           <name>ICCARM</name>
+          <file> 308</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 333 152 364 229 200 60 270 284 262 272 292 363 257 342 295 303 327 281 78 107 169 112 214 261 88 259 164 37 154 352 348 79 254 162 57 299 194 59 62 241 246 225 67 255 378 282 236 40 99 222 56 157 174 230 84 114 291 279 382 102 195 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348 342 164 214 292 261 157 174 40 56 282 236 257 79 88 60 254 295 154 333 162 303 57 270 299 327 194 230 152 352 200 59 284 62 281 241 109 259 37 102 104 229 84 99 114 363 291 222 279 382 195 78 246 262 225 107 364 67 169 255 272 378 112</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\My\PutChar.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 292 241 282 194 348 214 261 40 222 164 79 57 59 246 255 99 37 200 364 254 162 299 352 62 259 225 67 378 236 363 229 257 342 217 60 295 333 303 270 327 152 284 281 109 78 262 107 169 272 112 56 157 174 88 230 84 114 291 279 382 102 195 104 285 70 191 375 247 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 342 164 214 292 261 157 174 40 56 282 236 257 79 88 60 254 295 154 333 162 303 57 270 299 327 194 230 152 352 200 59 284 62 281 241 109 259 37 102 104 229 84 99 114 363 291 222 279 382 195 78 246 262 225 107 348 364 67 169 255 272 378 112 217 285 191 247 375 70 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\simplelink\cc_pal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 316</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 240</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 363 229 214 174 37 286 210 198 259 164 236 230 162 154 333 194 99 222 282 261 56 157 292 104 376 281 327 352 152 295 84 114 291 279 382 102 195 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195 57 376 162 281 154 286 333 327 194 230 210 352 152 198 295</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\middleware\driver\hal\hw_timer32.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 328</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214 261 56 327 383 157 292 254 40 194 162 174 230 79 94 88 236 164 220 257 105 57 60 282 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 254 257 214 292 261 157 174 40 56 327 194 230 105 79 282 88 60 164 236 94 48 220 57 162 383</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\middleware\driver\spi_drv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 238</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 304</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229 292 198 40 277 239 214 174 60 162 79 352 362 282 261 56 157 254 164 166 220 101 88 236 152 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 214 292 261 157 174 40 56 282 88 164 236 162 166 60 254 198 220 277 152 352 229 362 239 210 101</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\My\LCD.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 282 246 157 79 59 255 102 200 154 194 241 348 292 37 279 257 364 164 254 162 299 352 62 259 225 67 378 214 236 40 56 114 342 60 295 333 303 270 327 152 284 281 109 78 262 107 169 272 112 174 230 84 291 382 195 104 261 88 99 363 222 229</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 342 164 214 292 261 157 174 40 56 282 236 257 79 88 60 254 295 154 333 162 303 57 270 299 327 194 230 152 352 200 59 284 62 281 241 109 259 37 102 104 229 84 99 114 363 291 222 279 382 195 78 246 262 225 107 348 364 67 169 255 272 378 112</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\middleware\driver\hal\gpio_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 322</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 174 282 164 152 333 277 214 230 154 194 220 292 109 79 162 299 327 362 203 261 56 157 236 254 88 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 214 292 261 157 174 40 56 282 88 164 236 162 154 299 333 327 194 230 109 57 152 220 362 254 277 203</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\oslib\osi_freertos.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 282 164 174 214 302 89 79 160 229 292 236 115 87 60 320 206 366 327 194 162 88 261 56 157 252 351 230 40 332 257 293</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 214 292 261 157 174 40 56 282 88 60 164 236 320 332 257 115 252 87 366 293 351 160 302 206 89 229 327 194 230 162 152</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\middleware\driver\hal\uart_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 370 194 236 214 174 220 164 325 198 282 261 56 157 292 162 154 376 327 200 352 40 230 257</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164 214 292 261 157 174 40 56 282 236 162 154 376 325 327 194 230 200 352 198 220 370 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\simplelink\source\device.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 382 84 195 104 37 291 292 40 214 207 114 279 102 64 113 99 363 222 259 164 229 282 236 261 56 157 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195 64 207 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\middleware\driver\uart_drv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229 282 157 79 292 162 166 214 261 56 362 164 352 220 158 174 254 200 370 277 88 40 236 60 198 257 152</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 214 292 261 157 174 40 56 282 88 164 236 254 162 352 200 229 220 362 166 60 198 370 257 158 277 152</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\button_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 292 194 57 152 229 40 162 327 109 281 365 214 282 60 261 56 157 174 230</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 214 292 261 157 174 40 56 282 162 57 327 194 230 109 152 281 154 229 365</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\cloud\cloud_connect.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 299 236 225 382 254 62 378 292 200 164 162 352 259 67 214 84 195 104 37 79 154 57 194 59 241 246 348 255 282 174 230 291 342 257 60 295 333 303 270 327 152 284 281 109 78 262 107 364 169 272 112 40 56 157 114 279 102 261 88 99 363 222 229</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 255 342 164 214 292 261 157 174 40 56 282 236 257 79 88 60 254 295 154 333 162 303 57 270 299 327 194 230 152 352 200 59 284 62 281 241 109 259 37 102 104 229 84 99 114 363 291 222 279 382 195 78 246 262 225 107 348 364 67 169 272 378 112</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\cloud\device_status.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 222 37 99 195 104 292 40 214 363 259 102 169 84 114 291 279 382 164 229 282 236 261 56 157 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195 169</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\cloud\cloud.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 201</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164 154 37 272 241 200 222 214 174 194 348 259 257 342 107 282 261 56 157 292 79 57 59 246 255 363 229 352 67 88 40 254 162 299 62 225 378 236 99 327 60 295 333 303 270 152 284 281 109 78 262 364 169 112 230 84 114 291 279 382 102 195 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 214 292 261 157 174 40 56 282 88 342 164 236 257 60 254 295 154 333 162 303 57 270 299 327 194 230 152 352 200 59 284 62 281 241 109 259 37 102 104 229 84 99 114 363 291 222 279 382 195 78 246 262 225 107 348 364 67 169 255 272 378 112</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\cloud\cloud_pal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 282 174 222 79 99 214 67 261 56 157 292 363 259 164 229 236 60 257 40 84 114 291 279 382 102 195 104 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67 257 214 292 261 157 174 40 56 37 102 164 282 236 104 229 84 99 114 363 291 222 279 259 382 195 79 88 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\cloud\smartconfig.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 274</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 114 282 292 214 37 279 261 56 225 84 291 382 164 229 236 174 107 99 363 222 259 102 195 104 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195 107 225</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 287</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 174 261 162 214 161 257 154 266 292 40 56 157 254 242</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 254 257 214 292 261 157 174 40 56 161 154 162 266 242</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\des.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 300</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 361</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161 242 292 56 257 154 298 157 254 237 57 162 152 40 174 214 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 254 257 214 292 261 157 174 40 56 237 161 57 154 162 242 298 152</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\udma_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 232</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 325 282 157 152 292 236 79 214 261 56 57 376 109 200 229 174 164 154 162 327 194 198 352 60 184 88 40 230</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 214 292 261 157 174 40 56 282 88 164 236 57 154 325 162 376 327 194 230 109 198 152 352 200 60 229 184</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 359</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 268</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 292 307 57 190 233 157 257 161 154 162 214 40 174 107 254 242 261 152</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 254 257 214 292 261 157 174 40 56 190 161 57 154 233 162 307 107 242 152</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\wdt_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
           <file> 110</file>
         </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 312</file>
+        </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 172 224 349 264 137 352 80 56 220 254 174 234 380 221 359 271 321 314 307 382 129 396 96 229 301 320</file>
+          <file> 152 352 229 214 174 292 57 327 282 261 56 157 162 154 357 194 150 88 40 79 230</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 97 330 307 380 137 96 301 320 234 229 129 396 332 382 260 333 344 119 131 390 140 85 103 291 221 352</file>
+          <file> 79 214 292 261 157 174 40 56 282 88 162 57 154 352 357 327 194 230 152 150 229</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\pinmux.c</name>
+      <name>$PROJ_DIR$\..\driverlib\flash.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 313</file>
+          <file> 290</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 249</file>
+          <file> 354</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 58 139 389 296 288 305 153 167 334 219</file>
+          <file> 301 270 152 154 265 47 331 57 168 333 242 295 162</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 219 305 296 153 139 167 288 389 334 58</file>
+          <file> 162 331 154 57 270 168 265 333 301 242 47 295 152</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\i2c_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 283</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 60 214 292 154 327 261 56 254 183 281 352 174 282 230 257 162 57 59 194 284 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 254 257 214 292 261 157 174 40 56 60 282 162 154 57 183 59 281 327 194 230 352 284</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\timer_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 368</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 243</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 162 327 214 57 352 229 292 154 242 383 194 60 170 282 40 230 261 56 157 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 154 57 242 152 383 327 194 230 352 60 214 292 261 157 174 40 56 282 229 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 223</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 369</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 152 299 242 162 57 333 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 299 57 154 333 242 109 152</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 380</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 297</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292 152 154 56 183 242 157 257 57 162 59 214 40 174 254 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 254 257 214 292 261 157 174 40 56 183 57 154 162 242 59 152</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\camera.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 319</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162 76 152 57 154 226 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 57 154 76 226 152 50</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\i2s.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 273</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162 226 154 172 57 180 152</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 57 154 180 226 152 172</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\interrupt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 271</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242 162 233 175 152 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 233 162 175 242 152</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152 154 303 162 57 226 241</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 154 57 303 226 152 241</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\hwspinlock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 294</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292 261 57 214 162 257 154 333 40 56 157 174 254 224</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 254 257 214 292 261 157 174 40 56 162 154 57 333 224</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\startup_ewarm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 311</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 162 152</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 57 152</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\gpio_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 352 269 88 214 57 281 194 229 292 40 282 162 154 152 109 327 60 246 261 56 157 174 230 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 214 292 261 157 174 40 56 282 88 162 57 154 269 152 281 109 352 327 194 230 60 229 246</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\uart_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 289</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214 229 292 157 79 327 261 56 330 162 281 225 174 282 230 60 164 154 352 200 194 40 88 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 214 292 261 157 174 40 56 282 79 88 164 236 162 154 352 281 200 327 194 230 229 225</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\utils_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 248</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 174 210 327 162 224 214 261 56 157 230 254 154 194 352 292 40 257</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 257 214 292 261 157 174 40 56 254 162 154 327 194 230 224 352 210</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driverlib\cpu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
         </tool>
       </inputs>
     </file>
@@ -2167,13 +1901,266 @@
       <outputs>
         <tool>
           <name>OBJCOPY</name>
-          <file> 388</file>
+          <file> 228</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ILINK</name>
-          <file> 299 239 78 373 171 270 361 214 292 262 318 397 215 269 117 278 232 369 59 244 201 65 116 179 122 157 273 329 282 335 147 152 128 67 243 287 198 300 213 196 331 110 236 133 249 188 336 231 378 108 241 66 71 375 302 235 155 306 185 180 230 60 72 357 256 351 283 261 132 257 392 111 190 91 93 182 61 149 324 176 383 112 173 350</file>
+          <file> 155 45 268 204 319 189 240 68 201 74 167 235 69 185 361 179 49 208 346 97 65 354 360 310 369 322 188 103 186 108 294 297 283 273 96 193 66 156 63 313 106 379 41 280 93 309 98 54 213 384 86 276 274 215 163 43 304 148 311 308 52 349 264 243 80 121 197 83 289 73 232 356 314 248 250 312 347 296 171 317 219 373 306 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\pinmux.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 352 281 230 154 194 162 299 327 109 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62 162 154 299 281 327 194 230 109 352</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\simplelink\source\fs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 329</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 310</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 222 37 282 292 214 99 261 56 113 363 259 164 229 236 174 64 84 114 291 279 382 102 195 104 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195 64 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\simplelink\source\wlan.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 347</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 282 292 214 222 157 37 113 99 261 56 363 259 164 229 236 174 64 84 114 291 279 382 102 195 104 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195 64 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\simplelink\source\flowcont.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 360</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114 37 279 102 292 113 84 291 382 195 104 40 214 64 207 99 363 222 259 164 229 282 236 261 56 157 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195 64 113 207</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\simplelink\source\netapp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 372</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 313</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214 292 282 113 222 157 37 99 261 56 363 259 164 229 236 174 64 84 114 291 279 382 102 195 104 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195 64 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\simplelink\source\socket.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 318</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 215</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 37 99 214 261 222 282 157 292 113 363 259 164 229 236 174 64 84 114 291 279 382 102 195 104 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195 64 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\simplelink\source\nonos.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 379</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114 37 279 102 292 113 84 291 382 195 104 40 214 64 99 363 222 259 164 229 282 236 261 56 157 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195 64 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\simplelink\source\spawn.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 355</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 261 279 214 37 56 114 282 157 292 84 291 382 164 229 236 174 99 363 222 259 102 195 104 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 326</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 295 281 112 88 57 107 327 102 200 164 152 229 257 303 78 169 292 214 261 37 279 352 62 60 333 270 284 109 262 364 272 114 154 342 162 194 225 79 254 299 59 241 259 246 348 67 255 378 282 236 230 84 291 382 195 104 40 56 157 174 99 363 222</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 342 164 214 292 261 157 174 40 56 282 236 257 79 88 60 254 295 154 333 162 303 57 270 299 327 194 230 152 352 200 59 284 62 281 241 109 259 37 102 104 229 84 99 114 363 291 222 279 382 195 78 246 262 225 107 348 364 67 169 255 272 378 112</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\simplelink\source\driver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 371</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114 37 279 102 292 207 84 291 382 195 104 40 214 64 113 99 363 222 259 164 229 282 236 261 56 157 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195 64 113 207</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\simplelink\source\netcfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 381</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 114 279 102 292 113 84 291 382 195 104 40 214 64 99 363 222 259 164 229 282 236 261 56 157 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 102 164 214 292 261 157 174 40 56 282 236 104 229 84 99 114 363 291 222 279 259 382 195 64 113</file>
         </tool>
       </inputs>
     </file>
@@ -2184,6 +2171,9 @@
     <forcedrebuild>
       <name>[MULTI_TOOL]</name>
       <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
     </forcedrebuild>
   </configuration>
 </project>
